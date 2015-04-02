@@ -1,0 +1,41 @@
+ß<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>WEB DESIGN LAB</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="(C) WEB DESIGN LAB (http://www.webdlab.com/)">
+    <!--Require Stylesheet-->
+    <link rel="stylesheet" href="./css/sample.css">
+    <!--Require Javascript-->
+    <script src="./js/audio_player.js"></script>
+  </head>
+  <body>
+
+  <div id="fullimg">
+    <img src="./images/tumblr_mrmgw7PgKo1sdyj9lo1_1280.jpg" alt="">
+  </div>
+
+  <div id="wrapper">
+    <h1>WEB DESIGN LAB</h1>
+
+    <div class="fullimage">
+      <ul>
+      <li>listen</li>
+      <li>overlook</li>
+      <li>voice</li>
+      <li>effort</li>
+
+      <audio id="audio" >
+        <source src="sample.mp3">
+      </audio>
+      <div id="buttonbar">
+          <a class="button" id="play"  onclick="play()">&gt;</a>
+      </div>
+      </ul>
+    </div>
+    <div class="closebtn"><a href="javascript: close()">close</a></div>
+  </div>
+  </body>
+</html>
